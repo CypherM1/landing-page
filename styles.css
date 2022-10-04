@@ -19,6 +19,12 @@ body {
     align-content: center;
 }
 
+.pageTitle img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
 .navLinks {
     list-style: none;
     display: flex;
@@ -55,6 +61,11 @@ body {
     border-radius: 10px;
     height: 40px;
     width: 100px;
+}
+
+.signUpButton:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
 }
 
 .introImg {
@@ -141,5 +152,7 @@ blockquote p {
 
 .footer {
     height: 50px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

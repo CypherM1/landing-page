@@ -5,3 +5,8 @@ I will be leaning heavily on FlexBox to get the layout just the way I want it.
 I will try and make it my own as much as I can.
 
 Hopefully if you are reading this it turned out ok!
+
+
+Picture Credits: 
+
+- Ice Cube Icon: https://iconbros.com/icons/ice-cube
