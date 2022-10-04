@@ -39,6 +39,10 @@ body {
     margin: 10px;
 }
 
+.navLink:hover{
+    text-decoration: overline underline;
+}
+
 .introduction{
     display: flex;
     justify-content: center;
@@ -56,10 +60,9 @@ body {
 .signUpButton {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 10px;
+    padding: 5px;
     border: none;
-    border-radius: 10px;
-    height: 40px;
+    border-radius: 5px;
     width: 100px;
 }
 
@@ -69,9 +72,9 @@ body {
 }
 
 .introImg {
-    width: 300px;
-    height: 200px;
-    border: solid red;
+    width: 550px;
+    height: 250px;
+    object-fit: fill;
 }
 
 .picLinksSection {
@@ -107,7 +110,7 @@ body {
 .imgSrc {
     width: 150px;
     height: 150px;
-    border: solid red;
+    border: solid #3882F6;
     border-radius: 15px;
 }
 
