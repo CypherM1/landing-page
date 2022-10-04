@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>LandingPage</title>
 </head>
 <body>
     <div class="header">
         <h1 class="pageTitle">Ice Ice Baby</h1>
         <ul class="navLinks">
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#picLinksSection">Info Links</a></li>
-            <li><a href="#signUpSection">Sign Up</a></li>
+            <li><a href="#introduction" class="navLink">Introduction</a></li>
+            <li><a href="#picLinksSection" class="navLink">Info Links</a></li>
+            <li><a href="#signUpSection" class="navLink">Sign Up</a></li>
         </ul>
     </div>
 
-    <div class="introduction">
-        <h1>Your one stop shop for icy info</h1>
-        <p>Here you can find all you need to know about getting the best ice for your life. Stay chill and read below for more info.</p>
+    <div class="introduction" id="introduction">
+        <div class="introLeft">
+            <h1>Your one stop shop for icy info</h1>
+            <p>Here you can find all you need to know about getting the best ice for your life. Stay chill and read below for more info.</p>
+            <button class="signUpButton">Sign up</button>
+        </div>
         <img src="" class="introImg" alt="" />
-        <button class="signUpButton">Sign up</button>
     </div>
 
-    <div class="picLinksSection">
+    <div class="picLinksSection" id="picLinksSection">
         <h1>Check out these icy sources</h1>
         <ul class="sourceLists">
             <li>
@@ -54,18 +57,18 @@
     </div>
 
     <div class="quoteSection">
-        <blockquote cite="">
-            <p>        
-             
-            </p>
-            <cite></cite>
+        <blockquote cite="https://kidadl.com/quotes/top-ice-quotes-perfect-for-wintery-captions">
+                "We are ignorant of the Beyond because this ignorance is the condition of our own life. Just as ice cannot know fire except by melting and vanishing."
+            <p> ― Jules Renard </p>
         </blockquote> 
     </div>
 
-    <div class="signUpSection">
+    <div class="signUpSection" id="signUpSection">
         <div class="signUpInnerSection">
-            <h1 class="signUpTitle">The time for info is now!</h1>
-            <p>Sign up for all the icy info you can handle and chill out!</p>
+            <div class="innerLeft">
+                <h1 class="signUpTitle">The time for info is now!</h1>
+                <p>Sign up for all the icy info you can handle and chill out!</p>
+            </div>
             <button class="signUpButton">Sign up</button>
         </div>
     </div>
